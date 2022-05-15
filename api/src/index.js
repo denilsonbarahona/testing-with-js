@@ -5,6 +5,7 @@ const app = createApp();
 
 app.listen(config.port, (err) => {
   if (err) {
+    console.log('denilson')
     console.error('Error: ', err);
   }
 });
